@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//ham nhap mang
 void nhapMang(int* a, int* n){
 	printf("Nhap do lon cua mang: ");
 	scanf("%d", n);
@@ -10,6 +11,7 @@ void nhapMang(int* a, int* n){
 	}
 }
 
+//ham xu ly du lieu
 void xuly(int* a, int n){
 	int i;
 	int tong = 0;
